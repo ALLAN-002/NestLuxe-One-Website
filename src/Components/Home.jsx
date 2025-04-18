@@ -2,10 +2,10 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 // ✅ Use correct relative path from components/ to images/
-import HeroImage from '../images/nairobi-expressway.jpg';
-import Apartment1 from '../images/apartment1.jpeg';
-import Apartment2 from '../images/apartment2.jpg';
-import Apartment3 from '../images/apartment3.jpg';
+import HeroImage from './nairobi-expressway.jpg';
+import Apartment1 from './apartment1.jpeg';
+import Apartment2 from './apartment2.jpg';
+import Apartment3 from './apartment3.jpg';
 
 const Home = () => {
   return (

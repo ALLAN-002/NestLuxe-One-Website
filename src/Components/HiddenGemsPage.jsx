@@ -1,9 +1,9 @@
 import React from 'react';
 
 // ✅ Correct image imports based on src/images directory
-import SunsetAmboseli from '../images/sunset-amboseli.jpg';
-import RiverbendRetreat from '../images/riverbend-retreat.jpg';
-import HistoricFortHill from '../images/historic-fort-hill.jpg';
+import SunsetAmboseli from './sunset-amboseli.jpg';
+import RiverbendRetreat from './riverbend-retreat.jpg';
+import HistoricFortHill from './historic-fort-hill.jpg';
 
 const hiddenGems = [
   {

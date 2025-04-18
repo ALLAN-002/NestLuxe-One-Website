@@ -1,6 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+// Import images from the root-level images folder
+import HeroImage from '../images/nairobi-expressway.jpg';
+import Apartment1 from '../images/apartment1.jpeg';
+import Apartment2 from '../images/apartment2.jpg';
+import Apartment3 from '../images/apartment3.jpg';
+
 const Home = () => {
   return (
     <div className="min-h-screen bg-gray-50">
@@ -8,10 +14,10 @@ const Home = () => {
       <div
         className="h-screen bg-cover bg-center relative"
         style={{
-          backgroundImage: "url('/public/images/nairobi-expressway.jpg')", // Path including 'public'
+          backgroundImage: `url(${HeroImage})`, // Use imported image here
         }}
       >
-        <div className="absolute inset-0 bg-opacity-60 flex items-center justify-center">
+        <div className="absolute inset-0 bg-black bg-opacity-60 flex items-center justify-center">
           <div className="text-center text-white px-6">
             <h1 className="text-5xl md:text-6xl font-bold mb-6">
               Find Your Dream Home in Nairobi & Kiambu
@@ -38,7 +44,7 @@ const Home = () => {
           {/* Property 1 */}
           <div className="bg-gray-100 rounded-xl shadow-md overflow-hidden hover:shadow-lg transition">
             <img
-              src="/public/images/apartment1.jpeg" // Corrected path including 'public'
+              src={Apartment1}
               alt="2BR in Westlands"
               className="w-full h-48 object-cover"
             />
@@ -51,7 +57,7 @@ const Home = () => {
           {/* Property 2 */}
           <div className="bg-gray-100 rounded-xl shadow-md overflow-hidden hover:shadow-lg transition">
             <img
-              src="/public/images/apartment2.jpg" // Corrected path including 'public'
+              src={Apartment2}
               alt="Studio in Ruiru"
               className="w-full h-48 object-cover"
             />
@@ -64,7 +70,7 @@ const Home = () => {
           {/* Property 3 */}
           <div className="bg-gray-100 rounded-xl shadow-md overflow-hidden hover:shadow-lg transition">
             <img
-              src="/public/images/apartment3.jpg" // Corrected path including 'public'
+              src={Apartment3}
               alt="4BR Maisonette in Karen"
               className="w-full h-48 object-cover"
             />

@@ -1,4 +1,7 @@
 import React from "react";
+import apartment1 from "../../images/apartment1.jpeg";
+import apartment2 from "../../images/apartment2.jpg";
+import apartment3 from "../../images/apartment3.jpg";
 
 const GalleryPage = () => {
   return (
@@ -9,7 +12,7 @@ const GalleryPage = () => {
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
         <div className="bg-gray-100 rounded-xl shadow-md overflow-hidden hover:shadow-lg transition">
           <img
-            src="/images/apartment1.jpeg"
+            src={apartment1}
             alt="2BR in Westlands"
             className="w-full h-48 object-cover"
           />
@@ -21,7 +24,7 @@ const GalleryPage = () => {
 
         <div className="bg-gray-100 rounded-xl shadow-md overflow-hidden hover:shadow-lg transition">
           <img
-            src="/images/apartment2.jpg"
+            src={apartment2}
             alt="Studio in Ruiru"
             className="w-full h-48 object-cover"
           />
@@ -33,7 +36,7 @@ const GalleryPage = () => {
 
         <div className="bg-gray-100 rounded-xl shadow-md overflow-hidden hover:shadow-lg transition">
           <img
-            src="/images/apartment3.jpg"
+            src={apartment3}
             alt="4BR Maisonette in Karen"
             className="w-full h-48 object-cover"
           />

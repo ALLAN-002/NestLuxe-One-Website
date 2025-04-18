@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-// Import images from the root-level images folder
+// ✅ Use correct relative path from components/ to images/
 import HeroImage from '../images/nairobi-expressway.jpg';
 import Apartment1 from '../images/apartment1.jpeg';
 import Apartment2 from '../images/apartment2.jpg';
@@ -14,7 +14,7 @@ const Home = () => {
       <div
         className="h-screen bg-cover bg-center relative"
         style={{
-          backgroundImage: `url(${HeroImage})`, // Use imported image here
+          backgroundImage: `url(${HeroImage})`,
         }}
       >
         <div className="absolute inset-0 bg-black bg-opacity-60 flex items-center justify-center">

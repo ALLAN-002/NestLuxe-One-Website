@@ -1,6 +1,6 @@
 import React from 'react';
 
-// Importing images from the root-level images folder
+// ✅ Correct image imports based on src/images directory
 import SunsetAmboseli from '../images/sunset-amboseli.jpg';
 import RiverbendRetreat from '../images/riverbend-retreat.jpg';
 import HistoricFortHill from '../images/historic-fort-hill.jpg';

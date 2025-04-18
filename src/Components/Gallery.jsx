@@ -1,7 +1,9 @@
 import React from "react";
-import apartment1 from "../../images/apartment1.jpeg";
-import apartment2 from "../../images/apartment2.jpg";
-import apartment3 from "../../images/apartment3.jpg";
+
+// ✅ Correct relative imports from src/components to src/images
+import apartment1 from "../images/apartment1.jpeg";
+import apartment2 from "../images/apartment2.jpg";
+import apartment3 from "../images/apartment3.jpg";
 
 const GalleryPage = () => {
   return (

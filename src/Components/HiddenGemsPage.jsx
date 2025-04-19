@@ -1,24 +1,19 @@
 import React from 'react';
 
-// ✅ Correct image imports based on src/images directory
-import SunsetAmboseli from './sunset-amboseli.jpg';
-import RiverbendRetreat from './riverbend-retreat.jpg';
-import HistoricFortHill from './historic-fort-hill.jpg';
-
 const hiddenGems = [
   {
     title: 'Sunset at Amboseli',
-    image: SunsetAmboseli,
+    image: '/Image/sunset-amboseli.jpg', // ✅ path from public/
     description: 'A magical sunset view just outside Nairobi.',
   },
   {
     title: 'Riverbend Retreat',
-    image: RiverbendRetreat,
+    image: '/Image/riverbend-retreat.jpg', // ✅ path from public/
     description: 'Serene riverside views in the heart of Kiambu.',
   },
   {
     title: 'Historic Fort Hill',
-    image: HistoricFortHill,
+    image: '/Image/historic-fort-hill.jpg', // ✅ path from public/
     description: 'A hidden historical site near Limuru with panoramic views.',
   },
 ];

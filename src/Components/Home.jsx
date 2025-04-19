@@ -1,12 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-// ✅ Use correct relative path from components/ to images/
-import HeroImage from './nairobi-expressway.jpg';
-import Apartment1 from './apartment1.jpeg';
-import Apartment2 from './apartment2.jpg';
-import Apartment3 from './apartment3.jpg';
-
 const Home = () => {
   return (
     <div className="min-h-screen bg-gray-50">
@@ -14,7 +8,7 @@ const Home = () => {
       <div
         className="h-screen bg-cover bg-center relative"
         style={{
-          backgroundImage: `url(${HeroImage})`,
+          backgroundImage: `url(/Image/nairobi-expressway.jpg)`,
         }}
       >
         <div className="absolute inset-0 bg-black bg-opacity-60 flex items-center justify-center">
@@ -44,9 +38,12 @@ const Home = () => {
           {/* Property 1 */}
           <div className="bg-gray-100 rounded-xl shadow-md overflow-hidden hover:shadow-lg transition">
             <img
-              src={Apartment1}
+              src="/Image/apartment1.jpeg"
               alt="2BR in Westlands"
               className="w-full h-48 object-cover"
+              onError={(e) => {
+                e.target.src = 'https://via.placeholder.com/400x300?text=Image+Not+Found';
+              }}
             />
             <div className="p-4">
               <h3 className="text-lg font-semibold text-gray-900">2BR in Westlands</h3>
@@ -57,9 +54,12 @@ const Home = () => {
           {/* Property 2 */}
           <div className="bg-gray-100 rounded-xl shadow-md overflow-hidden hover:shadow-lg transition">
             <img
-              src={Apartment2}
+              src="/Image/apartment2.jpg"
               alt="Studio in Ruiru"
               className="w-full h-48 object-cover"
+              onError={(e) => {
+                e.target.src = 'https://via.placeholder.com/400x300?text=Image+Not+Found';
+              }}
             />
             <div className="p-4">
               <h3 className="text-lg font-semibold text-gray-900">Studio in Ruiru</h3>
@@ -70,9 +70,12 @@ const Home = () => {
           {/* Property 3 */}
           <div className="bg-gray-100 rounded-xl shadow-md overflow-hidden hover:shadow-lg transition">
             <img
-              src={Apartment3}
+              src="/Image/apartment3.jpg"
               alt="4BR Maisonette in Karen"
               className="w-full h-48 object-cover"
+              onError={(e) => {
+                e.target.src = 'https://via.placeholder.com/400x300?text=Image+Not+Found';
+              }}
             />
             <div className="p-4">
               <h3 className="text-lg font-semibold text-gray-900">4BR Maisonette in Karen</h3>

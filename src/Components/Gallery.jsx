@@ -1,20 +1,16 @@
 import React from "react";
 
-// ✅ Correct relative imports from src/components to src/images
-import Apartment1 from './apartment1.jpeg';
-import Apartment2 from './apartment1.jpg';
-import Apartment3 from './apartment1.jpg';
-
-const GalleryPage = () => {
+const Gallery = () => {
   return (
     <div className="min-h-screen bg-white py-12 px-4 sm:px-12">
       <h2 className="text-4xl font-bold text-gray-800 text-center mb-10">
         All Property Listings
       </h2>
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
+        {/* Property 1 */}
         <div className="bg-gray-100 rounded-xl shadow-md overflow-hidden hover:shadow-lg transition">
           <img
-            src={apartment1}
+            src="/Image/apartment1.jpeg"
             alt="2BR in Westlands"
             className="w-full h-48 object-cover"
           />
@@ -24,9 +20,10 @@ const GalleryPage = () => {
           </div>
         </div>
 
+        {/* Property 2 */}
         <div className="bg-gray-100 rounded-xl shadow-md overflow-hidden hover:shadow-lg transition">
           <img
-            src={apartment2}
+            src="/Image/apartment2.jpg"
             alt="Studio in Ruiru"
             className="w-full h-48 object-cover"
           />
@@ -36,9 +33,10 @@ const GalleryPage = () => {
           </div>
         </div>
 
+        {/* Property 3 */}
         <div className="bg-gray-100 rounded-xl shadow-md overflow-hidden hover:shadow-lg transition">
           <img
-            src={apartment3}
+            src="/Image/apartment3.jpg"
             alt="4BR Maisonette in Karen"
             className="w-full h-48 object-cover"
           />
@@ -52,4 +50,4 @@ const GalleryPage = () => {
   );
 };
 
-export default GalleryPage;
+export default Gallery;

@@ -3,17 +3,17 @@ import React from 'react';
 const hiddenGems = [
   {
     title: 'Sunset at Amboseli',
-    image: '/Image/sunset-amboseli.jpg', // ✅ path from public/
+    image: './Image/sunset-amboseli.jpg', // ✅ path from public/
     description: 'A magical sunset view just outside Nairobi.',
   },
   {
     title: 'Riverbend Retreat',
-    image: '/Image/riverbend-retreat.jpg', // ✅ path from public/
+    image: './Image/riverbend-retreat.jpg', // ✅ path from public/
     description: 'Serene riverside views in the heart of Kiambu.',
   },
   {
     title: 'Historic Fort Hill',
-    image: '/Image/historic-fort-hill.jpg', // ✅ path from public/
+    image: './Image/historic-fort-hill.jpg', // ✅ path from public/
     description: 'A hidden historical site near Limuru with panoramic views.',
   },
 ];

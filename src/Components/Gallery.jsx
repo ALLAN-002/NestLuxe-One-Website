@@ -11,7 +11,7 @@ const Gallery = () => {
         <div className="bg-gray-100 rounded-xl shadow-md overflow-hidden hover:shadow-lg transition">
           <img
             src="/images/apartment1.jpeg"
-            alt="2BR in Westlands"
+            alt="apartment1"
             className="w-full h-48 object-cover"
           />
           <div className="p-4">
@@ -24,7 +24,7 @@ const Gallery = () => {
         <div className="bg-gray-100 rounded-xl shadow-md overflow-hidden hover:shadow-lg transition">
           <img
             src="/images/apartment2.jpg"
-            alt="Studio in Ruiru"
+            alt="apartment2"
             className="w-full h-48 object-cover"
           />
           <div className="p-4">
@@ -35,11 +35,7 @@ const Gallery = () => {
 
         {/* Property 3 */}
         <div className="bg-gray-100 rounded-xl shadow-md overflow-hidden hover:shadow-lg transition">
-          <img
-            src="/images/apartment3.jpg"
-            alt="4BR Maisonette in Karen"
-            className="w-full h-48 object-cover"
-          />
+          <img src="/images/apartment3.jpg" alt="apartment3" className="w-full h-48 object-cover"/>
           <div className="p-4">
             <h3 className="text-lg font-semibold text-gray-900">4BR Maisonette in Karen</h3>
             <p className="text-gray-600">Nairobi · KES 95,000/month</p>

@@ -10,7 +10,7 @@ const Gallery = () => {
         {/* Property 1 */}
         <div className="bg-gray-100 rounded-xl shadow-md overflow-hidden hover:shadow-lg transition">
           <img
-            src="/apartment1.jpeg"
+            src="../apartment1.jpeg"
             alt="2BR in Westlands"
             className="w-full h-48 object-cover"
           />
@@ -23,7 +23,7 @@ const Gallery = () => {
         {/* Property 2 */}
         <div className="bg-gray-100 rounded-xl shadow-md overflow-hidden hover:shadow-lg transition">
           <img
-            src="/apartment2.jpg"
+            src="../apartment2.jpg"
             alt="Studio in Ruiru"
             className="w-full h-48 object-cover"
           />
@@ -36,7 +36,7 @@ const Gallery = () => {
         {/* Property 3 */}
         <div className="bg-gray-100 rounded-xl shadow-md overflow-hidden hover:shadow-lg transition">
           <img
-            src="/apartment3.jpg"
+            src="../apartment3.jpg"
             alt="4BR Maisonette in Karen"
             className="w-full h-48 object-cover"
           />

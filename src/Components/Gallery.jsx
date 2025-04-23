@@ -23,7 +23,7 @@ const Gallery = () => {
         {/* Property 2 */}
         <div className="bg-gray-100 rounded-xl shadow-md overflow-hidden hover:shadow-lg transition">
           <img
-            src="./Image/apartment2.jpg"
+            src="./apartment2.jpg"
             alt="Studio in Ruiru"
             className="w-full h-48 object-cover"
           />

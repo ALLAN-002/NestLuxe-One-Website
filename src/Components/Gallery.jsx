@@ -1,5 +1,5 @@
 import React from "react";
-import apartment1 from "../../asset/images/apartment1.jpeg"
+import apartment1 from "./asset/images/apartment1.jpeg"
 
 const Gallery = () => {
   return (
@@ -12,7 +12,7 @@ const Gallery = () => {
         <div className="bg-gray-100 rounded-xl shadow-md overflow-hidden hover:shadow-lg transition">
           <img
             src={apartment1}
-            alt=""
+            alt="apartment1"
             className="w-full h-48 object-cover"
           />
           <div className="p-4">

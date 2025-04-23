@@ -8,7 +8,7 @@ const Home = () => {
       <div
         className="h-screen bg-cover bg-center relative"
         style={{
-          backgroundImage: `url(../nairobi-expressway.jpg)`,
+          backgroundImage: `url(/images/nairobi-expressway.jpg)`,
         }}
       >
         <div className="absolute inset-0 bg-opacity-60 flex items-center justify-center">
@@ -38,7 +38,7 @@ const Home = () => {
           {/* Property 1 */}
           <div className="bg-gray-100 rounded-xl shadow-md overflow-hidden hover:shadow-lg transition">
             <img
-              src="../apartment1.jpeg"
+              src="/images/apartment1.jpeg"
               alt="2BR in Westlands"
               className="w-full h-48 object-cover"
               onError={(e) => {
@@ -54,7 +54,7 @@ const Home = () => {
           {/* Property 2 */}
           <div className="bg-gray-100 rounded-xl shadow-md overflow-hidden hover:shadow-lg transition">
             <img
-              src="../apartment2.jpg"
+              src="/images/apartment2.jpg"
               alt="Studio in Ruiru"
               className="w-full h-48 object-cover"
               onError={(e) => {
@@ -70,7 +70,7 @@ const Home = () => {
           {/* Property 3 */}
           <div className="bg-gray-100 rounded-xl shadow-md overflow-hidden hover:shadow-lg transition">
             <img
-              src="../apartment3.jpg"
+              src="/images/apartment3.jpg"
               alt="4BR Maisonette in Karen"
               className="w-full h-48 object-cover"
               onError={(e) => {

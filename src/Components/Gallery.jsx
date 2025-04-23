@@ -1,4 +1,5 @@
 import React from "react";
+import apartment1 from "../../asset/images/apartment1.jpeg"
 
 const Gallery = () => {
   return (
@@ -10,8 +11,8 @@ const Gallery = () => {
         {/* Property 1 */}
         <div className="bg-gray-100 rounded-xl shadow-md overflow-hidden hover:shadow-lg transition">
           <img
-            src="/images/apartment1.jpeg"
-            alt="apartment1"
+            src={apartment1}
+            alt=""
             className="w-full h-48 object-cover"
           />
           <div className="p-4">
